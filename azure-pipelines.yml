@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: 'windows-latest'
+name: "OSX Local"
 
 variables:
   solution: '**/*.sln'
